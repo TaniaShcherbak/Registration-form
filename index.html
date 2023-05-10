@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>authorization_form</title>
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="triangle-background">
+        </div>
+        <div class="authorazition-modal">
+            <div class="authorazition-modal__left-wraper">
+                <h3 class="authorazition-modal__heading">
+                    Welcome Back
+                </h3>
+                <p class="authorazition-modal__text">
+                    Create your account. <br>
+                    It's totally free.
+                </p>
+                <input type="button" value="Sign Up" class="authorazition-modal__text authorazition-modal__input">
+            </div>
+            <div class="authorazition-modal__right-wraper">
+                <h4 class="authorazition-modal__heading-small">
+                    Login
+                </h4>
+                <form action="#" method="post">
+                    <div><label class="authorazition-modal__text" for="email">Username or email adress <span
+                                class="mandatory-star">*</span></label>
+                        <input class="authorazition-modal__input" type="email" id="email" name="email"
+                            placeholder="User name or Emaill" required>
+                    </div>
+                    <div><label class="authorazition-modal__text" for="password">Password <span
+                                class="mandatory-star">*</span></label>
+                        <input class="authorazition-modal__input" type="password" id="password" name="password"
+                            placeholder="Password" required>
+                    </div>
+                    <div><input class="authorazition-modal__input" type="submit" id="submit" value="Sign In"></div>
+                    <div><a href="#">Forget Password?</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
